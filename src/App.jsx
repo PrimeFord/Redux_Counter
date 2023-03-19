@@ -11,12 +11,12 @@ function App() {
 
   return (
     <div className="App">
-      <div className="h-[75%] w-[45%] bg-white text-center">
+      <div className="lg:h-[75%] h-[95%] w-[90%] lg:w-[45%] bg-white text-center">
         <h1 className="text-[3rem] font-[400] mb-8">COUNTER</h1>
         <p className="text-[5rem] font-[500] mb-8">{counter}</p>
-        <div className="w-[50%] flex justify-around m-auto">
+        <div className="w-[50%] flex lg:gap-0 gap-2 justify-around m-auto">
           <button
-            className="border-solid border-2 border-slate-400 text-black py-1 px-2 bg-[#c1c1c194] font-[400] {}"
+            className="border-solid border-2 border-slate-400 text-black py-1 px-2 bg-[#c1c1c194] font-[400]"
             onClick={() => {
               dispatch(increase());
             }}
