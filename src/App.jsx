@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="lg:h-[75%] h-[95%] w-[90%] lg:w-[45%] bg-white text-center">
+      <div className="lg:h-[75%] h-[95%] w-[90%] lg:w-[45%] bg-white text-center pt-[8rem] lg:pt-8">
         <h1 className="text-[3rem] font-[400] mb-8">COUNTER</h1>
         <p className="text-[5rem] font-[500] mb-8">{counter}</p>
         <div className="w-[50%] flex lg:gap-0 gap-2 justify-around m-auto">
