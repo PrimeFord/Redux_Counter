@@ -25,7 +25,7 @@ Clone or download this repository and run with a local server of open `index.htm
 
 ## Preview
 
-[Preview Here](redux-counter-phi.vercel.app)
+[Preview Here](https://redux-counter-phi.vercel.app/)
 
 ![screenshot](./public/image/snip.png)
 
